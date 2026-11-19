@@ -87,3 +87,7 @@ The model correctly classified 903 legitimate messages and 82 spam messages in t
 ## Confusion Matrix Visualization
 
 ![Confusion Matrix](confusion_matrix.png)
+
+## Streamlit Dashboard
+
+![Smart Spam Detection Dashboard](dashboard.png)
