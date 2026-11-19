@@ -1,55 +1,66 @@
-Smart Spam Detection Using Machine Learning
+# Smart Spam Detection Using Machine Learning
 
-Project Overview
+## Project Overview
+Smart Spam Detection is a machine learning project that classifies SMS messages into two categories: Spam and Ham (legitimate messages).
 
-Smart Spam Detection is a machine learning project that identifies whether an SMS message is Spam or Ham (Normal Message).
+The system uses Natural Language Processing (NLP) and machine learning techniques to identify unwanted messages.
 
-The project uses Natural Language Processing (NLP) and a TF-IDF vectorizer to process SMS messages and predict their category.
+## Objectives
+- Detect spam SMS messages automatically.
+- Classify messages as Spam or Ham.
+- Apply NLP techniques to text data.
+- Build a simple interactive web application.
 
-Features
-
-- SMS Spam Detection
-- Normal Message (Ham) Detection
-- Machine Learning Prediction
-- Prediction History
-- Model Performance Dashboard
-- Interactive Streamlit Interface
-
-Technologies Used
-
+## Technologies Used
 - Python
-- Machine Learning
-- Natural Language Processing (NLP)
-- Scikit-learn
 - Pandas
+- NumPy
+- Scikit-learn
 - Streamlit
+- Matplotlib
+
+## Machine Learning
 - TF-IDF Vectorization
+- Naive Bayes / Trained classification model
 
-Project Files
+## Project Structure
+```text
+SmartSpamDetection/
+├── dataset/
+├── app.py
+├── main.py
+├── spam_model.pkl
+├── tfidf_vectorizer.pkl
+├── model_metrics.pkl
+├── README.md
+└── .gitignore
+```
 
-- "main.py" – Model training and evaluation
-- "app.py" – Streamlit web application
-- "spam_model.pkl" – Trained machine learning model
-- "tfidf_vectorizer.pkl" – Saved TF-IDF vectorizer
-- "model_metrics.pkl" – Model performance metrics
+## Installation
 
-How to Run the Project
+Clone the repository:
 
-1. Install Python.
-2. Install the required libraries.
-3. Open the project folder in VS Code.
-4. Run the following command:
+```bash
+git clone https://github.com/sainallamala136-cmd/SmartSpamDetection.git
+```
 
-python -m streamlit run app.py
+Install the required libraries:
 
-5. Open the displayed local URL in your browser.
+```bash
+pip install pandas numpy scikit-learn streamlit matplotlib
+```
 
-Project Objective
+## Run the Application
 
-To develop an intelligent SMS classification system that helps identify unwanted spam messages.
+```bash
+streamlit run app.py
+```
 
-Author
+## Project Status
+Development in progress.
 
-N.Sai Ganesh
+## Author
+Sai Ganesh
 
-B.Tech – Computer Science and Engineering
+## License
+To be decided.
