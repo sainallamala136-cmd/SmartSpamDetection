@@ -84,3 +84,6 @@ The Smart Spam Detection model was evaluated using the following metrics:
 
 The model correctly classified 903 legitimate messages and 82 spam messages in the evaluation dataset. It missed 49 spam messages.
 
+## Confusion Matrix Visualization
+
+![Confusion Matrix](confusion_matrix.png)
