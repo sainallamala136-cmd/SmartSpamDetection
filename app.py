@@ -1,6 +1,27 @@
 import streamlit as st
 import joblib
 from pathlib import Path
+st.markdown("""
+<style>
+.stApp {
+    background-color: #f5f7fb;
+}
+
+h1, h2, h3, p, label {
+    color: #1f2937 !important;
+}
+
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"] {
+    color: #1f2937 !important;
+}
+
+[data-testid="stTextArea"] textarea {
+    background-color: white !important;
+    color: #111827 !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 BASE_DIR = Path(__file__).resolve().parent
 
