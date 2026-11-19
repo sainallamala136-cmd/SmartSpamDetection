@@ -64,3 +64,23 @@ Sai Ganesh
 
 ## License
 To be decided.
+## Model Performance
+
+The Smart Spam Detection model was evaluated using the following metrics:
+
+| Evaluation Metric | Score |
+|---|---:|
+| Accuracy | 95.26% |
+| Precision | 95.51% |
+| Recall | 95.26% |
+| F1-score | 94.78% |
+
+### Confusion Matrix
+
+| Actual / Predicted | Ham | Spam |
+|---|---:|---:|
+| Ham | 903 | 0 |
+| Spam | 49 | 82 |
+
+The model correctly classified 903 legitimate messages and 82 spam messages in the evaluation dataset. It missed 49 spam messages.
+
